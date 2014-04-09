@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" 
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>0.01</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>ot</short-name>
+	<uri>http://www.saikat.com</uri>
+	<description>This tag library contains simple JSF Component examples.</description>
+
+
+	<tag>
+		<name>output</name>
+		<tag-class>test.OutputTag</tag-class>
+
+		<attribute>
+			<name>binding</name>
+			<description>A value binding that points to a bean property</description>
+		</attribute>
+
+		<attribute>
+			<name>id</name>
+			<description>The client id of this component</description>
+		</attribute>
+
+		<attribute>
+			<name>rendered</name>
+			<description>Is this component rendered?</description>
+		</attribute>
+
+		<attribute>
+			<name>message</name>
+			<description>a custom message for the Component</description>
+		</attribute>
+
+	</tag>
+
+
+	<tag>
+		<name>output-text2</name>
+		<tag-class>test.OutputTextTag</tag-class>
+
+		<attribute>
+			<name>binding</name>
+			<description>A value binding that points to a bean property</description>
+		</attribute>
+
+		<attribute>
+			<name>id</name>
+			<description>The client id of this component</description>
+		</attribute>
+
+		<attribute>
+			<name>rendered</name>
+			<description>Is this component rendered?</description>
+		</attribute>
+
+		<attribute>
+			<name>value</name>
+			<description>a custom message for the Component</description>
+		</attribute>
+		<attribute>
+			<name>inline</name>
+			<description>in-line</description>
+		</attribute>
+
+	</tag>
+
+</taglib>

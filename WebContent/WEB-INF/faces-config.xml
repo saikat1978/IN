@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE faces-config PUBLIC
+    "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+    "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<faces-config>
+	<component>
+		<component-type>test.UIOutput</component-type>
+		<component-class>test.UIOutput</component-class>
+	</component>
+	<component>
+		<component-type>test.OutputText</component-type>
+		<component-class>test.OutputText</component-class>
+	</component>
+	<component>
+		<component-type>test.UIOutput</component-type>
+		<component-class>test.UIOutput</component-class>
+	</component>
+	<component>
+		<component-type>output-text2</component-type>
+		<component-class>test.OutputText</component-class>
+	</component>
+	
+</faces-config>
